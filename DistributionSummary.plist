@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TPFVPN.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FA99139EEB1D7CBCDCAED5788F296DFD39A15D19</string>
+				<key>dateExpires</key>
+				<string>2024/1/15</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>i386</string>
+						<string>x86_64</string>
+						<string>armv7</string>
+						<string>armv7s</string>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>3.2.1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>FA99139EEB1D7CBCDCAED5788F296DFD39A15D19</string>
+						<key>dateExpires</key>
+						<string>2024/1/15</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AFNetworking.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5Z2MT753QB</string>
+						<key>name</key>
+						<string>Shanghai Kuark Finance Information Service Co., Ltd.</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>3.1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>FA99139EEB1D7CBCDCAED5788F296DFD39A15D19</string>
+						<key>dateExpires</key>
+						<string>2024/1/15</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>NetworkMonitor.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5Z2MT753QB</string>
+						<key>name</key>
+						<string>Shanghai Kuark Finance Information Service Co., Ltd.</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5Z2MT753QB.com.joss.ai.vpnikev</string>
+				<key>com.apple.developer.networking.networkextension</key>
+				<array>
+					<string>app-proxy-provider</string>
+					<string>content-filter-provider</string>
+					<string>dns-proxy</string>
+					<string>dns-settings</string>
+					<string>packet-tunnel-provider</string>
+				</array>
+				<key>com.apple.developer.networking.vpn.api</key>
+				<array>
+					<string>allow-vpn</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5Z2MT753QB</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>TPFVPN.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>958d0f69-4933-4f41-a1bb-4c800995620b</string>
+				<key>dateExpires</key>
+				<string>2023/3/25</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.joss.ai.vpnikev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5Z2MT753QB</string>
+				<key>name</key>
+				<string>Shanghai Kuark Finance Information Service Co., Ltd.</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
